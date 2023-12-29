@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="navbar"  class="position-absolute d-none  w-100 ">
+        <div  class=" container  d-flex justify-content-between align-items-center px-5 py-2  ">
+            <h5>SMART LOGIN</h5>
+            <button id="logoutBtn" class="logout">Logout</button>
+        </div>
+        
+    </nav>
+    <main class="min-vh-100 main d-flex justify-content-center ">
+        <div class="logincard h-100 p-5 text-center m-5 d-inline-block   ">
+            <h1>Smart Login System</h1>
+            <input id="Name" placeholder="Enter your Name" class="w-100 bg-transparent rounded-1 p-2 input" type="text">
+            <input id="NewEmail" placeholder="Enter your email" class="w-100 bg-transparent rounded-1 p-2 my-3 input" type="text">
+            <input id="Newpassword" placeholder="Enter your password" class="w-100 bg-transparent rounded-1 p-2 input " type="password">
+            <div id="notify"><p class=""></p></div>          
+            <button id="signupbtn" class="w-100 bg-transparent my-3 p-1 rounded-1 ">Sign Up</button>
+            <p class="text-white">you have an account? <span id="signin" class="signup">Sign In</span></p>
+        </div>
+        <div id="home" class="home h-100 p-5 text-center m-5 align-self-center d-none   ">
+            <div id="nameOfUser">  </div>
+        </div>
+    </main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
